@@ -15,6 +15,7 @@ The fourth program demonstrates a double pointer. First, an integer variable is 
 ### Assignment 5: Strings and Character Pointers
 The fifth program uses a character pointer to work with the string "Hello". A pointer is created and set to the beginning of the string. A counter is also initialized to zero. A while loop is used to move through the string. *ptr is used to access and print the current character. After printing each character, the counter is increased by one and ptr++ moves the pointer to the next character. The loop continues until the pointer reaches the null character '\0', which marks the end of the string. The program prints Hello and reports that the string contains 5 characters. This program showed that a character pointer can be used to move through a string without using array indexing. The same loop can be used to both print and count the characters. Increasing the pointer with ptr++ moves it to the next character, and the null character '\0' tells the program when to stop.
 
+### Conclusion
 This assignment helped me understand how pointers are used in C. I learned that pointers store memory addresses and can be used to directly access and change values. I also learned how pointer arithmetic works with arrays, how pointers allow functions to modify original variables, how double pointers work, and how character pointers can be used to work with strings. Overall, the assignments showed that pointers are useful when working directly with memory, arrays, functions, and strings.
 
 ### Use of AI
